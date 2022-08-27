@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatilble" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tiltle> Login </tiltle>
+    <link rel="stylesheet" href="css/login.css" <!--tag link, onde será responsável por apontar para o arquivo style.css(onde ficam a aparencia para a página de login)-->
+</head>
+<body>
+    <div id="login">   <!--a tag div serve para alterar o estilo de partes específicas da página e posicionar objetos-->
+        <form class="card">   <!-- uma seção que contém controles interativos-->
+            <div class="card-header">
+                <h2>login</h2>  <!--representa níveis de título de seção-->
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
+                    <label for="usuario">Usuário</label>  <!--representa uma legenda para um item em uma interface de usuário-->
+                    <input type="text" id="usuario" autocomplete="off">
+                </div>
+                <div class="card-content-area">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" autocomplete="off">
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="sumit" value="login" class="submit">
+                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+            </div>
+        </form>                     
+</html>
