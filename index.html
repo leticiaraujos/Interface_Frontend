@@ -4,28 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatilble" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tiltle> Login </tiltle>
-    <link rel="stylesheet" href="css/login.css" <!--tag link, onde será responsável por apontar para o arquivo style.css(onde ficam a aparencia para a página de login)-->
+    <tiltle> Game Mania | Tudo do mundo Gamer! </tiltle>
+    <link rel="stylesheet" type ="text/css" href="style.css" > <!--tag link, onde será responsável por apontar para o arquivo style.css(onde ficam a aparencia para a página de login)-->
 </head>
 <body>
+    <header>
+        <div class="cabeçalho">
+            <a href="#"><img class="logo" src="img/logo.png" alt="logo do Site Game Mania"></a>
+            <nav class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">Departamentos</a>
+                <a href="#">Baixe o App</a>
+                <a href="#">Promoções</a>
+                <a href="#">Novidades</a>
+                <a href="#">Oferta do Dia</a>
+                <a href="#">Central de Dúvidas</a>
+            </nav>
+        </div>        
+        </div>
+    </header>  
+</body>
+<body>
     <div id="login">   <!--a tag div serve para alterar o estilo de partes específicas da página e posicionar objetos-->
-        <form class="card">   <!-- uma seção que contém controles interativos-->
-            <div class="card-header">
-                <h2>login</h2>  <!--representa níveis de título de seção-->
-            </div>
-            <div class="card-content">
-                <div class="card-content-area">
-                    <label for="usuario">Usuário</label>  <!--representa uma legenda para um item em uma interface de usuário-->
-                    <input type="text" id="usuario" autocomplete="off">
-                </div>
-                <div class="card-content-area">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
-                </div>
-            </div>
-            <div class="card-footer">
-                <input type="sumit" value="login" class="submit">
-                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
-            </div>
-        </form>                     
+       <h2> Login </h2>
+       <form>
+        <div class="user-box">
+            <input type="text" name="" required="">
+            <label> Email </label>
+
+        </div>
+        <div class="user-box">
+            <input type="password" name="" required="">
+            <label> Senha </label>
+        </div>
+        <a href="#">
+            <span> Esqueceu a senha? </span>
+        </a>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal">
+            CONFIRMAR
+        </button>
+       </form>
+
 </html>
