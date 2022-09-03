@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br"
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatilble" content="IE=edge">
@@ -8,9 +8,15 @@
     <link rel="stylesheet" type ="text/css" href="style.css" > <!--tag link, onde será responsável por apontar para o arquivo style.css(onde ficam a aparencia para a página de login)-->
 </head>
 <body>
+    <div class="boton-login"></div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal">
+        LOGIN/CADASTRO
+    </button>
+</body>
+<body>
     <header>
         <div class="cabeçalho">
-            <a href="#"><img class="logo" src="img/logo.png" alt="logo do Site Game Mania"></a>
+            <a href="#"><img class="logo" src="gamemania.png" alt="logo do Site Game Mania"></a>
             <nav class="menu">
                 <a href="#">Inicio</a>
                 <a href="#">Departamentos</a>
@@ -25,24 +31,4 @@
     </header>  
 </body>
 <body>
-    <div id="login">   <!--a tag div serve para alterar o estilo de partes específicas da página e posicionar objetos-->
-       <h2> Login </h2>
-       <form>
-        <div class="user-box">
-            <input type="text" name="" required="">
-            <label> Email </label>
-
-        </div>
-        <div class="user-box">
-            <input type="password" name="" required="">
-            <label> Senha </label>
-        </div>
-        <a href="#">
-            <span> Esqueceu a senha? </span>
-        </a>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal">
-            CONFIRMAR
-        </button>
-       </form>
-
 </html>
