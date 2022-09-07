@@ -4,31 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatilble" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <tiltle> Game Mania | Tudo do mundo Gamer! </tiltle>
-    <link rel="stylesheet" type ="text/css" href="style.css" > <!--tag link, onde será responsável por apontar para o arquivo style.css(onde ficam a aparencia para a página de login)-->
+    <link rel="stylesheet" type ="text/css" href="style.css"
+ 
 </head>
+<!--MENU-->
 <body>
-    <div class="boton-login"></div>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal">
-        LOGIN/CADASTRO
-    </button>
-</body>
-<body>
+    <link rel="stylesheet" type ="text/css" href="stylemenu.css">
+    <script src="mobile-navbar.js"></script>
     <header>
-        <div class="cabeçalho">
-            <a href="#"><img class="logo" src="gamemania.png" alt="logo do Site Game Mania"></a>
-            <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="#">Departamentos</a>
-                <a href="#">Baixe o App</a>
-                <a href="#">Promoções</a>
-                <a href="#">Novidades</a>
-                <a href="#">Oferta do Dia</a>
-                <a href="#">Central de Dúvidas</a>
-            </nav>
-        </div>        
-        </div>
-    </header>  
+        <nav>
+            <a class="logo" a href="imagem/logo-gamemania.png"></a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Ínicio</a></li>
+                <li><a href="/"> Baixe o App </a></li>
+                <li><a href="/"> Promoções </a></li>
+                <li><a href="/"> Novidades </a></li>
+                <li><a href="/"> Oferta do Dia </a></li>
+                <li><a href="/"> Central de dúvidas </a></li>
+
+            </ul>
+        </nav>
+    </header>
 </body>
+
+<!--BANNER-->
+    <body>
+        <link rel="stylesheet" type ="text/css" href="stylebanner.css" >
+        <div class="content">
+            <div class="slides">
+                <input type="radio" name="carrosel" id="carrosel1">
+                <input type="radio" name="carrosel" id="carrosel2">
+                <input type="radio" name="carrosel" id="carrosel3">
+
+                <div class="carrosel s1">
+                    <img src="imagem/banner-sitegame.png" alt="">
+                </div>
+                <div class="carrosel">
+                    <img src="imagem/banner-2.png" alt="">
+                </div>
+                <div class="carrosel">
+                    <img src="imagem/banner-3.png" alt="">
+                </div>
+            </div>
+
+            <div class="navigation">
+                <label class="bar" for="carrosel1"></label>
+                <label class="bar" for="carrosel2"></label>
+                <label class="bar" for="carrosel3"></label>
+            </div>
+        </div>
+    </body>
+
+<!--LOGIN-->
 <body>
+    <div class="button-login">
+    <button><a href="http://127.0.0.1:3002/telalogin.html"> Login/Cadastro </a> </button>
+    </div>
+</body>
+
+<!--LOGO-->
+<body>
+    <div class="logotipo">
+        <img src="imagem/logo-gamemania.png"
+    </div>
+</body>
+
 </html>
